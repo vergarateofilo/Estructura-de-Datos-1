@@ -1,0 +1,6 @@
+drop table if exists agenda;
+create table agenda(
+   nombre varchar(20),
+   domicilio varchar(30),
+   telefono varchar(11)
+);
